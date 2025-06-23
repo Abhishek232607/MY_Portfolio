@@ -1,0 +1,57 @@
+/* Sidebar container */
+.sidebar {
+  width: 300px;
+  /* height: 100vh; */
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Profile image panel */
+.profile-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+/* Circular image style */
+.profile-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Heading */
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #17a2b8;
+}
+
+/* Menu list */
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin-bottom: 20px;
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+  color: #ffc107;
+}

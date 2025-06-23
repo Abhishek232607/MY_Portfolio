@@ -1,0 +1,40 @@
+.resume-full {
+  padding: 30px;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-full h1 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.resume-actions {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.resume-button,
+.source-button {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.source-button {
+  background-color: #28a745;
+}
+
+.resume-button:hover {
+  background-color: #0056b3;
+}
+
+.source-button:hover {
+  background-color: #1e7e34;
+}

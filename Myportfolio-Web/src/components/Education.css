@@ -1,0 +1,37 @@
+.education-container {
+  padding: 40px;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.education-container h1 {
+  text-align: center;
+  color: #17a2b8;
+  margin-bottom: 30px;
+}
+
+.education-detail {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.education-detail:hover {
+  transform: translateY(-5px);
+}
+
+.education-detail h3 {
+  margin-top: 0;
+  color: #343a40;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.education-detail p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 14px;
+}

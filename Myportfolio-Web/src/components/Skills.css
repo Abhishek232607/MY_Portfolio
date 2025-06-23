@@ -1,0 +1,41 @@
+.skills-container {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.skills-container h1 {
+  color: #17a2b8;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skills-section {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section h3 {
+  color: #138496;
+  margin-bottom: 10px;
+}
+
+.skills-section ul {
+  padding-left: 20px;
+}
+
+.skills-section li {
+  margin-bottom: 6px;
+}
+
+.skills-section p {
+  line-height: 1.6;
+  margin: 8px 0;
+}
